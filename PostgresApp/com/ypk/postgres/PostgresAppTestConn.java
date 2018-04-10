@@ -58,7 +58,7 @@ public class PostgresAppTestConn {
 	    {
 	      Class.forName("org.postgresql.Driver");
 	      String url = "jdbc:postgresql://192.168.1.114/testdb1";
-	      conn = DriverManager.getConnection(url,"heuristic", "g691813");
+	      conn = DriverManager.getConnection(url,"heuristic", "xxxxxxx");
 /*
 		    Statement st = conn.createStatement();
 		    ResultSet rs = st.executeQuery("SELECT id, subject, permalink FROM blogs ORDER BY id");
